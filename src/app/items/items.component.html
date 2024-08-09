@@ -1,0 +1,6 @@
+<ul>
+  @for (item of items; track $index) {
+    <li>{{ item }}</li>
+  }
+</ul>
+<button (click)="addItem()">Add Item</button>
